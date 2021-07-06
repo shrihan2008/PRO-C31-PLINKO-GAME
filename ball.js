@@ -20,7 +20,7 @@ class Ball
         push();
         translate(this.body.position.x, this.body.position.y);
         ellipseMode(CENTER);
-        fill("red")
+        fill(random(0,255))
         circle(0,0, this.radius);
         pop();
     }
